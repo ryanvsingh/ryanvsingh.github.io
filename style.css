@@ -17,6 +17,7 @@ body {
       border: 1px #ccc solid;
       width: 200px;
       height: 200px;
+      justify-content: center;
   }
 
   .hearder h1 {
@@ -36,7 +37,7 @@ body {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-evenly;
       flex-flow: row;
       max-width: 900%;
       align-items: center;
@@ -56,6 +57,7 @@ body {
 
   .one p{
       flex: 0 1 auto;
+      background-color: yellow;
   }
 
 
