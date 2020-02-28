@@ -1,0 +1,27 @@
+body { 
+    background-color: rgb(196, 250, 250);
+  }
+
+  .header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: blue;
+    padding: 10px;
+  }
+
+  .logo {
+      border: 1px #ccc solid;
+      flex: 1/2;
+      align-items: right;
+      height: 150px;
+      width: 150px;
+    }
+
+
+
+
+
