@@ -3,7 +3,7 @@ const myHeading = document.querySelector("p");
 
 myHeading.textContent = "Hello world!";
 
-myTitle.textContent = "Ryan Singh' Lab_4";
+myTitle.textContent = "Ryan Singh Lab_4";
 
 var br = document.createElement("br");
 var name = "Ryan Singh";
@@ -14,7 +14,7 @@ var counter = 3
 var total = first_name.length + last_name.length
 
 const myHeader = document.querySelector(".header");
-myHeader.textContent = "Ryan Singh' Lab 4 ";
+myHeader.textContent = "Ryan Singh Lab 4 ";
 
 
 var paragraph = document.createElement("p");
