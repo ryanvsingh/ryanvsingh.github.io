@@ -5,16 +5,15 @@ const overlay = document.querySelector('.overlay');
 
 
 /* Looping through images */
-const images = ["images/pic1.jpg", "images/pic2.jpg", "images/pic3.jpg", "images/pic4.jpg", "images/pic5.png"];
-images.forEach(image => {
+x = 1
+for (x; x <= 5; x++) {
     const newImage = document.createElement('img');
-    newImage.setAttribute('src', image);
-    newImage.onclick = ()=>{
-        displayedImage.setAttribute('src', image);
-    }
+    newImage.setAttribute('src', 'images/image' + x + '.jpg');
     thumbBar.appendChild(newImage);
-
-})
+    newImage.onclick = function(e) {
+        displayedImage.src = e.target.src;
+    }
+  }
 
 /* Wiring up the Darken/Lighten button */
 btn.onclick = function() {
